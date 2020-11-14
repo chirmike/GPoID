@@ -19,8 +19,8 @@ Gradual Pattern over Imprecise Data
 ==========================================================================
 			Description des fichiers
 ==========================================================================
-		1.	"GRAPGT-AprioriTID.jar" : librairie Java de l'algorithme AprioriTID modifié;	
-		2.	"GRAPGT.R" : approche modifié de modified approach of the T-GPatterns prenant e compte le seuil graduel;
+		1.	"GPoID-AprioriTID.jar" : librairie Java de l'algorithme AprioriTID modifié;	
+		2.	"GPoID.R" : approche modifié de modified approach of the T-GPatterns prenant e compte le seuil graduel;
 		3.	"test3.data" : dataset; 
 
 ==========================================================================
@@ -37,7 +37,7 @@ Gradual Pattern over Imprecise Data
 			- "PATH\Rscript" <<File_R>> <<minSupp>> <<minimum_size_of_gradual_pattern>> <<dataset>> <<output_file>> <<K1>> <<K2>> <<column_separator_in_the_dataset>>
 			- where K1 and K2 are constants
 		   Example :
-				- 	Rscript GRAPGT.R 0.08 2 test3.data output.csv 1 0  sd " "
+				- 	Rscript GPoID.R 0.08 2 test3.data output.csv 1 0  sd " "
 				
 ==========================================================================
 		Exécution (LINUX)
@@ -52,4 +52,4 @@ Gradual Pattern over Imprecise Data
 			- "PATH\Rscript" <<File_R>> <<minSupp>> <<minimum_size_of_gradual_pattern>> <<dataset>> <<output_file>> <<K1>> <<K2>> <<column_separator_in_the_dataset>>
 			- where K1 and K2 are constants
 		   Example :
-				- 	Rscript GRAPGT.R 0.08 2 test3.data output.csv 1 0  sd " "
+				- 	Rscript GPoID.R 0.08 2 test3.data output.csv 1 0  sd " "
